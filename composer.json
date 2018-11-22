@@ -1,0 +1,20 @@
+{
+  "name": "mfajfr/easy-api",
+  "description": "API for communication with Easy Accountancy system",
+  "type": "library",
+  "require": {
+    "php": ">=5.6.4",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "AccountancyAPI\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ing. Marek Fajfr",
+      "email": "mfajfr90@gmail.com"
+    }
+  ]
+}
